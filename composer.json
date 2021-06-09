@@ -16,5 +16,15 @@
         "post-autoload-dump": [
             "@php ./vendor/bin/testbench package:discover --ansi"
         ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Jotapegue\\GenerateScaffold": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jotapegue\\GenerateScaffold\\Tests": "tests/"
+        }
     }
 }
