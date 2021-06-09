@@ -1,0 +1,13 @@
+{
+    "name": "jotapegue/laravel-genarate-scaffold",
+    "description": "Command inspired by the command in Ruby on Rails scaffold model generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "João Pedro Garcia",
+            "email": "jotapegue09@gmail.com"
+        }
+    ],
+    "require": {}
+}
