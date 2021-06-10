@@ -1,5 +1,5 @@
 {
-    "name": "jotapegue/laravel-genarate-scaffold",
+    "name": "jotapegue/genaratescaffold",
     "description": "Command inspired by the command in Ruby on Rails scaffold model generator",
     "type": "library",
     "license": "MIT",
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jotapegue\\GenerateScaffold": "src/"
+            "Jotapegue\\Scaffold": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jotapegue\\GenerateScaffold\\Tests": "tests/"
+            "Jotapegue\\Scaffold\\Tests": "tests/"
         }
     }
 }
