@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jotapegue\\Scaffold": "src/"
+            "Jotapegue\\Scaffold\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jotapegue\\Scaffold\\Tests": "tests/"
+            "Jotapegue\\Scaffold\\Tests\\": "tests/"
         }
     }
 }
