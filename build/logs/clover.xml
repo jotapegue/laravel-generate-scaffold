@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1623516754">
+  <project timestamp="1623516754">
+    <file name="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/src/Console/Commands/ScaffoldCommand.php">
+      <class name="Jotapegue\Scaffold\Console\Commands\ScaffoldCommand" namespace="global">
+        <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="28" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <metrics loc="42" ncloc="22" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <file name="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/src/ScaffoldServiceProvider.php">
+      <class name="Jotapegue\Scaffold\ScaffoldServiceProvider" namespace="global">
+        <metrics complexity="3" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </class>
+      <line num="10" type="method" name="boot" visibility="public" complexity="2" crap="6" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <metrics loc="22" ncloc="21" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+    </file>
+    <file name="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/src/UnstructCommand.php">
+      <class name="Jotapegue\Scaffold\UnstructCommand" namespace="global">
+        <metrics complexity="8" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="31" coveredelements="31"/>
+      </class>
+      <line num="12" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="7"/>
+      <line num="13" type="stmt" count="7"/>
+      <line num="14" type="stmt" count="7"/>
+      <line num="15" type="stmt" count="7"/>
+      <line num="17" type="method" name="setModel" visibility="private" complexity="1" crap="1" count="7"/>
+      <line num="19" type="stmt" count="7"/>
+      <line num="20" type="stmt" count="7"/>
+      <line num="22" type="method" name="getModel" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="27" type="method" name="getTable" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="32" type="method" name="listAttributes" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="34" type="stmt" count="5"/>
+      <line num="35" type="stmt" count="5"/>
+      <line num="36" type="stmt" count="5"/>
+      <line num="38" type="stmt" count="5"/>
+      <line num="40" type="stmt" count="5"/>
+      <line num="43" type="method" name="listAttributesWithoutReferences" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="45" type="stmt" count="2"/>
+      <line num="46" type="stmt" count="2"/>
+      <line num="47" type="stmt" count="2"/>
+      <line num="49" type="stmt" count="2"/>
+      <line num="51" type="stmt" count="2"/>
+      <line num="54" type="method" name="listAttributesWithReferences" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="56" type="stmt" count="2"/>
+      <line num="57" type="stmt" count="2"/>
+      <line num="58" type="stmt" count="2"/>
+      <line num="60" type="stmt" count="2"/>
+      <line num="62" type="stmt" count="2"/>
+      <line num="65" type="method" name="separateColumnAndType" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="67" type="stmt" count="2"/>
+      <line num="69" type="stmt" count="1"/>
+      <metrics loc="68" ncloc="68" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="31" coveredelements="31"/>
+    </file>
+    <metrics files="3" loc="132" ncloc="111" classes="3" methods="10" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="23" elements="36" coveredelements="31"/>
+  </project>
+</coverage>

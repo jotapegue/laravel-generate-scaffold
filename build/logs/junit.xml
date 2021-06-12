@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="9" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.238402">
+    <testsuite name="PHP Coveralls component test suite" tests="9" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.238402">
+      <testsuite name="Jotapegue\GenerateScaffold\Tests\Feature\ExampleTest" file="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/tests/Feature/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.092304">
+        <testcase name="testExample" class="Jotapegue\GenerateScaffold\Tests\Feature\ExampleTest" classname="Jotapegue.GenerateScaffold.Tests.Feature.ExampleTest" file="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/tests/Feature/ExampleTest.php" line="10" assertions="1" time="0.092304"/>
+      </testsuite>
+      <testsuite name="Jotapegue\GenerateScaffold\Tests\Unit\ExampleTest" file="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.016737">
+        <testcase name="example" class="Jotapegue\GenerateScaffold\Tests\Unit\ExampleTest" classname="Jotapegue.GenerateScaffold.Tests.Unit.ExampleTest" file="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/tests/Unit/ExampleTest.php" line="10" assertions="1" time="0.016737"/>
+      </testsuite>
+      <testsuite name="Jotapegue\GenerateScaffold\Tests\Unit\UnstructCommandTest" file="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/tests/Unit/UnstructCommandTest.php" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.129361">
+        <testcase name="getModelFromArrray" class="Jotapegue\GenerateScaffold\Tests\Unit\UnstructCommandTest" classname="Jotapegue.GenerateScaffold.Tests.Unit.UnstructCommandTest" file="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/tests/Unit/UnstructCommandTest.php" line="28" assertions="1" time="0.016441"/>
+        <testcase name="getNameTableFromModel" class="Jotapegue\GenerateScaffold\Tests\Unit\UnstructCommandTest" classname="Jotapegue.GenerateScaffold.Tests.Unit.UnstructCommandTest" file="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/tests/Unit/UnstructCommandTest.php" line="34" assertions="1" time="0.020931"/>
+        <testcase name="getListAttributes" class="Jotapegue\GenerateScaffold\Tests\Unit\UnstructCommandTest" classname="Jotapegue.GenerateScaffold.Tests.Unit.UnstructCommandTest" file="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/tests/Unit/UnstructCommandTest.php" line="40" assertions="1" time="0.019267"/>
+        <testcase name="listAttributesWithoutReferencesReturnArray" class="Jotapegue\GenerateScaffold\Tests\Unit\UnstructCommandTest" classname="Jotapegue.GenerateScaffold.Tests.Unit.UnstructCommandTest" file="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/tests/Unit/UnstructCommandTest.php" line="52" assertions="1" time="0.018891"/>
+        <testcase name="listAttributesWithReferencesReturnArray" class="Jotapegue\GenerateScaffold\Tests\Unit\UnstructCommandTest" classname="Jotapegue.GenerateScaffold.Tests.Unit.UnstructCommandTest" file="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/tests/Unit/UnstructCommandTest.php" line="63" assertions="1" time="0.017097"/>
+        <testcase name="listColumnWithTypeWithoutReferences" class="Jotapegue\GenerateScaffold\Tests\Unit\UnstructCommandTest" classname="Jotapegue.GenerateScaffold.Tests.Unit.UnstructCommandTest" file="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/tests/Unit/UnstructCommandTest.php" line="71" assertions="1" time="0.019079"/>
+        <testcase name="listColumnWithTypeWithReferences" class="Jotapegue\GenerateScaffold\Tests\Unit\UnstructCommandTest" classname="Jotapegue.GenerateScaffold.Tests.Unit.UnstructCommandTest" file="/home/jotapegue/Documentos/projects/php/laravel/packages/genaratescaffold/tests/Unit/UnstructCommandTest.php" line="90" assertions="1" time="0.017656"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
