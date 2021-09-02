@@ -1,6 +1,6 @@
 <?php
 
-namespace Jotapegue\Scaffold;
+namespace Jotapegue\Scaffold\Services;
 
 use Illuminate\Support\Str;
 

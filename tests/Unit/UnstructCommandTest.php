@@ -3,7 +3,7 @@
 namespace Jotapegue\GenerateScaffold\Tests\Unit;
 
 use Orchestra\Testbench\TestCase;
-use Jotapegue\Scaffold\UnstructCommand;
+use Jotapegue\Scaffold\Services\UnstructCommand;
 
 class UnstructCommandTest extends TestCase
 {
