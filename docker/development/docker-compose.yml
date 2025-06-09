@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      context: ../../
+      dockerfile: docker/development/Dockerfile
+      args:
+        - uid=${CUSTOM_CONTAINER_UID}
+    image: dev_scaffolding_app
+    container_name: dev_scaffolding_app
+    volumes:
+      - ./../../:/var/www/html
+    ports:
+      - "8000:80"
+      - "5173:5173"
+
