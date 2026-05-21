@@ -7,18 +7,18 @@ use Jotapegue\Scaffold\Services\UnstructCommand;
 
 class UnstructCommandTest extends TestCase
 {
-    protected $arguments;
-    protected $unstruct;
+    protected $arguments = [];
+    protected UnstructCommand $unstruct;
 
     protected function setUp() : void
     {
         parent::setUp();
 
         $this->arguments = [
-            0 => "person",
-            1 => "name:string",
-            2 => "age:integer",
-            3 => "user:references"
+            "person",
+            "name:string",
+            "age:integer",
+            "user:references"
         ];
 
         $this->unstruct = new UnstructCommand($this->arguments);
@@ -40,9 +40,9 @@ class UnstructCommandTest extends TestCase
     public function getListAttributes()
     {
         $expected = [
-            0 => "age:integer",
-            1 => "name:string",
-            2 => "user:references",
+            "age:integer",
+            "name:string",
+            "user:references",
         ];
 
         $this->assertEquals($expected, $this->unstruct->listAttributes());
@@ -52,8 +52,8 @@ class UnstructCommandTest extends TestCase
     public function listAttributesWithoutReferencesReturnArray()
     {
         $expected = [
-            0 => "age:integer",
-            1 => "name:string",
+            "age:integer",
+            "name:string",
         ];
 
         $this->assertEquals($expected, $this->unstruct->listAttributesWithoutReferences());
@@ -62,7 +62,7 @@ class UnstructCommandTest extends TestCase
     /** @test */
     public function listAttributesWithReferencesReturnArray()
     {
-        $this->assertEquals([0 => "user:references"],
+        $this->assertEquals(["user:references"],
             $this->unstruct->listAttributesWithReferences()
         );
     }
@@ -71,13 +71,13 @@ class UnstructCommandTest extends TestCase
     public function listColumnWithTypeWithoutReferences()
     {
         $expected = [
-            0 => [
-                0 => "age",
-                1 => "integer"
+            [
+                "age",
+                "integer"
             ],
-            1 => [
-                0 => "name",
-                1 => "string"
+            [
+                "name",
+                "string"
             ]
         ];
 
@@ -90,9 +90,9 @@ class UnstructCommandTest extends TestCase
     public function listColumnWithTypeWithReferences()
     {
         $expected = [
-            0 => [
-                0 => "user",
-                1 => "references"
+            [
+                "user",
+                "references"
             ]
         ];
 
