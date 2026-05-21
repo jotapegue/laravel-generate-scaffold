@@ -11,8 +11,8 @@
         }
     ],
     "require-dev": {
-        "phpunit/phpunit": "^9.6",
-        "orchestra/testbench": "^6.47"
+        "phpunit/phpunit": "*",
+        "orchestra/testbench": "^10.11"
     },
     "scripts": {
         "post-autoload-dump": [
